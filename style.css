@@ -48,18 +48,19 @@ body {
     padding: 20px;
     }
 .precios {
-       background-color: brown;
-       color: black;
+        background-color: brown;
+        color: black;
         border: 2px solid black;
-         text-align: center;
-         margin: 0 auto;
-         margin-bottom: 10px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
     }
 .tituloprecio {
         border: 2px solid black;
         background-color: burlywood;
     }
-.imagen {		
+.imagen {	
+        transform: scale(1.,1);	
         border: 12px black;		
         border-radius: 40px;		
         background-color: brown;		
