@@ -48,6 +48,7 @@ body {
     padding: 20px;
     }
 .precios {
+        background-image: linear-gradient(beige, brown);
         background-color: brown;
         color: black;
         border: 2px solid black;
@@ -56,11 +57,12 @@ body {
         margin-bottom: 10px;
     }
 .tituloprecio {
+        background-image: linear-gradient(to right, beige, orange , black);
         border: 2px solid black;
         background-color: burlywood;
     }
 .imagen {	
-        transform: scale(1.,1);	
+        transform: scale(1,1);	
         border: 12px black;		
         border-radius: 40px;		
         background-color: brown;		
@@ -84,6 +86,7 @@ body {
         transform: rotate(360);
     }	
 .footer {
+        background-image: linear-gradient(to top, black, grey, white);
         background-color: black;
         border: 2px solid black;
         color: white;
@@ -96,6 +99,7 @@ nav {
     margin-top:  10px;
 }
 .formulario {
+    background-image: radial-gradient(black, grey, white);
     text-align: center;
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -139,7 +143,10 @@ nav {
     
 }
 .productosub {
-    background-image: linear-gradient(red, yellow)}
+    background-image: linear-gradient(red, yellow)
+}
+
+
 
 
 
