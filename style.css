@@ -56,28 +56,32 @@ body {
     padding: 20px;
     }
 .precios {
-        background-image: linear-gradient(beige, brown);
-        background-color: brown;
-        color: black;
-        border: 2px solid black;
-        text-align: center;
-        margin: 0 auto;
-        margin-bottom: 10px;
+    background-image: linear-gradient(beige, brown);
+    background-color: brown;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
     }
-
 .tituloprecio {
         background-image: linear-gradient(to right, beige, rgb(156, 125, 68) , black);
         border: 2px solid black;
         background-color: burlywood;
     }
-.imagen {
-        transform: scale(0.9, 0,7);	
+.imagen {        
         border: 12px black;		
         border-radius: 40px;		
         background-color: brown;		
         color: white;		
         border-style: dashed; 
     }
+.imagen:focus {
+    width: 200px;
+    height: 32px;
+    font-size: 18px;
+    border: 1px solid black;
+}
 .descripcion {
         text-align: center;
         font-size: 15px;
@@ -100,8 +104,7 @@ body {
         border: 2px solid black;
         color: white;
         text-align: center;
-        margin-bottom: 0px;
-              
+        margin-bottom: 0px;              
     }     
 nav {
     margin-top:  10px;
@@ -154,13 +157,11 @@ nav {
     margin-left: 100px;
     margin-right: 100px;
     height: auto;
-    background-image: url(imagenes/fondo.jpg);
-    
+    background-image: url(imagenes/fondo.jpg);    
 }
-.productosub {
-    background-image: linear-gradient(red, yellow)
+.footercontacto {
+    margin-top: 300px;
 }
-
 
 
 
