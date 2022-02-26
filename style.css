@@ -5,7 +5,7 @@ body {
     height: 0;
 }
 .divv {
-    background-color: brown;
+    background-image: linear-gradient(to right, white, brown);
     border: 2px solid black;
     text-align: right;
 }
@@ -15,6 +15,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .headerr {
+    background-image: linear-gradient(to bottom, white, brown);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 40px;
@@ -22,8 +23,8 @@ body {
     border: 2px solid black;
     } 
 .barra {
+    background-image: linear-gradient(to bottom, white, brown);
     display: inline-block;
-    background-color: brown;
     border: 3px solid black;
     color: white;
     padding: 10px 30px;
@@ -136,7 +137,8 @@ nav {
     background-image: url(imagenes/fondo.jpg);
     
 }
-
+.productosub {
+    background-image: linear-gradient(red, yellow)}
 
 
 
