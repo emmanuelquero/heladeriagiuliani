@@ -1,21 +1,26 @@
 body {
     margin: 0;
     background-image: url(imagenes/fondo.jpg);
-    width:auto;
-    height: 0;
+    
+}
+
+.cabecera {
+    display: inline-flex;
+    float: right;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
 .divv {
-    background-image: linear-gradient(to right, white, brown);
-    border: 2px solid black;
-    text-align: right;
-}
-.cabecera {
-    display: inline;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-image: linear-gradient(to right, white, rgb(27, 87, 165));
+        border: 2px solid black;        
+       }
+.divv:focus {
+    width: 200px;
+    height: 32px;
+    font-size: 18px;
 }
 .headerr {
-    background-image: linear-gradient(to bottom, white, brown);
+    background-image: linear-gradient(to bottom, white, blue);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 40px;
