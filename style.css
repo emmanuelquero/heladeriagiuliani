@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    background-image: url(imagenes/fondo.jpg);
-    
+    background-image: url(imagenes/fondo2.jpg);  
 }
 
 .cabecera {
@@ -10,15 +9,22 @@ body {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
+.imagenn {
+    transition: 5s;
+    }
+.imagenn:hover {
+    transform: rotate(360dg)
+}
+.tituloo {
+    transition: 3s    
+}
+.tituloo:hover {
+    transform: translate(150px, 150px);
+}
 .divv {
         background-image: linear-gradient(to right, white, rgb(27, 87, 165));
-        border: 2px solid black;        
+        border: 2px solid black;       
        }
-.divv:focus {
-    width: 200px;
-    height: 32px;
-    font-size: 18px;
-}
 .headerr {
     background-image: linear-gradient(to bottom, white, blue);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -26,17 +32,18 @@ body {
     font-size: 40px;
     font-style: italic;
     border: 2px solid black; 
-    align-items: center;   
+     
     } 
 .barra {
-    background-image: linear-gradient(to bottom, white, brown);
+    background-image: linear-gradient(to bottom, white, blue);
     display: inline-block;
     border: 3px solid black;
     color: white;
     padding: 10px 30px;
     text-decoration: none;
+    
 }
-.barra:hover {
+.barra:hovex {
     color: black;
     width: 200px;
     height: 32px;
@@ -44,6 +51,9 @@ body {
     border: 1px solid black;
 
 }
+
+
+
 .calendario {
     padding: 10px 10px;
     position: relative;
@@ -61,47 +71,36 @@ body {
     padding: 20px;
     }
 .precios {
-    background-image: linear-gradient(beige, brown);
-    background-color: brown;
+    background-image: linear-gradient(rgb(55, 23, 172), rgb(248, 233, 233));
     color: black;
     border: 2px solid black;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 10px;
+    transition: 4s;
     }
-.tituloprecio {
-        background-image: linear-gradient(to right, beige, rgb(156, 125, 68) , black);
-        border: 2px solid black;
-        background-color: burlywood;
-    }
-.imagen {        
-        border: 12px black;		
-        border-radius: 40px;		
-        background-color: brown;		
-        color: white;		
-        border-style: dashed; 
-    }
-.imagen:focus {
-    width: 200px;
-    height: 32px;
-    font-size: 18px;
-    border: 1px solid black;
+.precios:hover {
+    transform: scale(2.5);
 }
+.tituloprecio {
+        background-image: linear-gradient(to right, beige, rgb(46, 34, 204) , black);
+        border: 2px solid black;
+        color: black;
+        text-align: center;
+    }
 .descripcion {
         text-align: center;
         font-size: 15px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         border: 3px solid black;
-        background-color: brown;
-        color: white;
-    }
+        background-color: rgb(20, 62, 124);
+        color: white;    }
 .titulo {
-        display: flex;
         text-align: center;
         border: 2px solid black;
         background-color: brown;
         color: white;
-        background-image: linear-gradient(brown,rgb(255, 238, 0));
+        background-image: linear-gradient(rgb(19, 94, 163),rgb(28, 146, 136), white );
         }	
 .footer {
         background-image: linear-gradient(to top, black, grey, white);
