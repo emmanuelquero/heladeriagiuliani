@@ -21,6 +21,12 @@ body {
 .tituloo:hover {
     transform: translate(150px, 150px);
 }
+.titulos {
+    transition: 5s;
+    }
+.titulos:hover {
+    transform: scale(3.1);
+}
 .divv {
         background-image: linear-gradient(to right, white, rgb(27, 87, 165));
         border: 2px solid black;       
@@ -53,7 +59,6 @@ body {
     position: relative;
     top: -30px;
 }
-
 .techo {
     display: flex; 
     flex-wrap: wrap;
