@@ -22,7 +22,8 @@ body {
 }
 .divv {
         background-image: linear-gradient(to right, white, rgb(27, 87, 165));
-        border: 2px solid black;       
+        border: 2px solid black; 
+           
        }
 .headerr {
     background-image: linear-gradient(to bottom, white, blue);
