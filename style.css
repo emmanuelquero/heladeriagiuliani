@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url(imagenes/fondo.jpg);
+    background-image: url(imagenes/fondoliso.jpg);
 }
 .imagenn {
     transition: 5s;
@@ -78,7 +78,7 @@ body {
         background-image: linear-gradient(rgb(19, 94, 163),rgb(28, 146, 136), white );
         }	
 .footer {
-        background-image: linear-gradient(to top, black, grey, white);
+        background-color: black;
         border: 2px solid black;
         color: white;
         text-align: center;
@@ -127,8 +127,9 @@ nav {
 .imagenlocales:hover {
     transform: scale(1, 2);
 }
-
-
+.letracontacto {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 
 
