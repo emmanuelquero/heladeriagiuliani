@@ -181,7 +181,12 @@ nav {
 .parrafoproductos {
     font-size: 28px;
     font-style: italic;
-
+}
+.logohistoria {
+    transform: 5s;
+}
+.logohistoria:hover {
+    transform: scale(2.2);
 }
 
 
